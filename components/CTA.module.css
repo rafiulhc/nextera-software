@@ -1,0 +1,5 @@
+.cta {
+  display:grid; align-items:center; gap:1rem;
+  border-radius:1.25rem; padding:2rem; border:1px solid var(--border); background:linear-gradient(180deg, #fff, #fff5f8);
+}
+.title { font-size: 1.3rem; font-weight: 800; }

@@ -1,0 +1,17 @@
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem;
+  padding: .9rem 0;
+}
+.brand { display: flex; align-items: center; gap: .7rem; font-weight: 700; font-size: 1.05rem;}
+.brand img { height: 28px; width: auto; }
+.links { display: flex; align-items: center; gap: 1rem; }
+.links a { color: var(--muted); font-weight: 600; }
+.links a:hover { color: var(--text); }
+.cta { margin-left: .5rem; }

@@ -1,0 +1,18 @@
+.wrap { padding: 5rem 0 2rem; }
+.title {
+  font-weight: 900; font-size: clamp(2rem, 3.2vw, 3.2rem); line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.gradient { 
+  background: linear-gradient(90deg, #ff7ecb 0%, #2563eb 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.subtitle { color: var(--muted); margin-top: .9rem; font-size: 1.1rem; }
+.actions { display: flex; align-items: center; gap: .75rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem; margin-top: 2rem; }
+.kpi { background: var(--card); border: 1px solid var(--border); padding: 1rem; border-radius: .9rem; text-align: center;}
+.kpi strong{ font-size: 1.25rem; }
+.marquee {
+  display: grid; grid-auto-flow: column; gap: 1.5rem; overflow-x: auto; margin-top: 2rem; padding-bottom: .5rem;
+}
+.badge2 { white-space: nowrap; }

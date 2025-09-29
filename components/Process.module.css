@@ -1,0 +1,10 @@
+.timeline {
+  display: grid; grid-template-columns: repeat(5, minmax(0,1fr));
+  gap: 1rem;
+}
+.step { background:#fff; border:1px solid var(--border); border-radius:1rem; padding:1rem; }
+.step h3 { font-size:1rem; margin:.2rem 0 .5rem; }
+.step p { color: var(--muted); font-size:.95rem; }
+@media (max-width: 1100px){
+  .timeline { grid-template-columns: 1fr; }
+}
