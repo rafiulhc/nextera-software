@@ -6,7 +6,7 @@ export default function Footer(){
       <div className="container">
         <div className={styles.top}>
           <div className={styles.brand}>
-            <img src="/logo.svg" alt="Nextera logo"/><span>Nextera Software</span>
+            <img src="/logo.svg" alt="Nextera logo"/><span>Nextera Software,Lakeview heritage, Cumilla Housing Estate, Section 2, Bloc D, House 12, Cumilla-3500, Bangladesh </span>
           </div>
           <div className={styles.links}>
             <a href="/services">Services</a>
