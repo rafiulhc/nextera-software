@@ -43,7 +43,7 @@ export default function Contact(){
           <button className="btn" type="submit">Request callback</button>
         </form>
         {status==='ok' && <div className={styles.success}>Thanks! We’ll be in touch shortly.</div>}
-        {status==='err' && <div className={styles.error}>Something went wrong. Email us at hello@nextera.software</div>}
+        {status==='err' && <div className={styles.error}>Something went wrong. Email us at admin@nexterasoftware.tech</div>}
       </div>
     </section>
   );
